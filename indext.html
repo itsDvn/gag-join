@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAG Server</title>
+  <link rel="icon" type="image/png" href="https://static.wikia.nocookie.net/a4684b90-203a-4465-916a-b20b9a0602e3/scale-to-width/755">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      min-height: 100vh;
+      background: url('https://images.unsplash.com/photo-1462331940025-4eda3f8827bf?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .container {
+      background: rgba(24,24,32, 0.76);
+      border-radius: 20px;
+      padding: 36px 32px;
+      box-shadow: 0 10px 32px rgba(0,0,0,0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      margin-bottom: 18px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      mix-blend-mode: multiply;
+    }
+    .main-btn, .server-btn {
+      width: 160px;
+      padding: 12px 0;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(90deg, #6a5acd 40%, #2e8bf7 100%);
+      color: #fff;
+      font-size: 1.17em;
+      font-weight: 600;
+      cursor: pointer;
+      margin: 10px 0 0 0;
+      box-shadow: 0 2px 12px rgba(106,90,205,0.3);
+      transition: background 0.18s;
+    }
+    .main-btn:hover, .server-btn:hover {
+      background: linear-gradient(90deg, #805de6 40%, #5dade2 100%);
+    }
+    .desc-text {
+      margin: 22px 0 16px 0;
+      color: #ccccff;
+      font-size: 1.06em;
+      text-align: center;
+      text-shadow: 0 1px 8px #0008;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-pic">
+      <img src="https://static.wikia.nocookie.net/a4684b90-203a-4465-916a-b20b9a0602e3/scale-to-width/755" alt="Profile">
+    </div>
+    <button class="main-btn" onclick="window.location.href='https://www.roblox.com/share?code=f85cd8e601457149a424d8fc5c41bdae&type=Server'">Join</button>
+    <div class="desc-text">
+      GAG SERVER IF YOU WANT TO JOIN CLICK IT ITS A PS FREE BTW YOU CAN MAKE AS YOU'R SELF DOWN HERE
+    </div>
+    <button class="server-btn" onclick="window.location.href='https://www.roblox.com/games/126884695634066/Grow-a-Garden#!/game-instances'">Make server</button>
+  </div>
+</body>
+</html>
